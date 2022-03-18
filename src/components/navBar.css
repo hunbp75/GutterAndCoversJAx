@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 3rem;
+}
+
+#navbutton {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: oblique;
+  border-radius: 20px;
+}
