@@ -8,8 +8,15 @@ import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 
+import "./App.css";
+
 const Layout = () => (
   <div>
+    <div className="header-container">
+      <h1>Gutters And Covers LLC.</h1>
+      <h3>Jacksonville, Florida</h3>
+      <h4>(904) 997-6685</h4>
+    </div>
     <NavBar />
     <Main>
       <Outlet />
