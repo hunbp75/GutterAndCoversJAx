@@ -1,0 +1,205 @@
+.gutter-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.text-header {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: oblique;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.text-gutter {
+  font-size: 16px;
+}
+
+.header-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  font-style: oblique;
+  margin-top: 3rem;
+  border: 2px solid black;
+  width: 400px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-bottom: 3rem;
+}
+
+.color-container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+
+  gap: 2rem;
+}
+.white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 24px;
+  border-radius: 20px;
+}
+.royalbrown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #523b35;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(2, 70, 2);
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.clay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(197, 172, 142);
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: black;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.musketbrown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #463a32;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.pearlgray {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #dee2d9;
+  font-size: 24px;
+  border-radius: 20px;
+  color: grey;
+}
+.charcoal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #36454f;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(185, 66, 66);
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.lightbronze {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(112, 133, 85);
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.tan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #d3d176;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.copperClone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: #bc7332;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+.slateblue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  background-color: slateblue;
+  font-size: 24px;
+  border-radius: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .color-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  #color-card {
+    width: 120px;
+    font-size: 16px;
+  }
+}
