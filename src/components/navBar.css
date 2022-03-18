@@ -27,3 +27,10 @@ body {
   font-style: oblique;
   border-radius: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

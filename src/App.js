@@ -11,7 +11,7 @@ import Products from "./pages/Products";
 import "./App.css";
 
 const Layout = () => (
-  <div>
+  <div className="main-container">
     <div className="header-container">
       <h1>Gutters And Covers LLC.</h1>
       <h3>Jacksonville, Florida</h3>
