@@ -115,6 +115,18 @@ const Products = () => {
         you can make your selection! We also offer genuine copper Guttertopper!
         Visit www.guttertopper.com for more information!
       </p>
+      <p className="text-header" id="leafRelief">
+        Leaf Relief
+      </p>
+      <p>
+        Leaf Relief brings real relief to homeowners who need a gutter
+        protection solution that works, first time, every time. Leaf Reliefs
+        patented Aluma-Perf Technology keeps debris out of gutters, allowing
+        water to flow freely. Debris is then lifted off of gutters by a gentle
+        breeze. Gutter Protection for the fraction of the price of other
+        systems! 10 years Manufacturers Warranty! Visit www.leaf-relief.com for
+        more information!
+      </p>
     </div>
   );
 };

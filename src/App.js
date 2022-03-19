@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
 import Main from "./components/Main";
 import NavBar from "./components/NavBar";
-import ContactUs from "./pages/ContactUs";
+import ContactUs from "./pages/contactUs/ContactUs";
 import Faqs from "./pages/Faqs";
 import Feedback from "./pages/Feedback";
 import Gallery from "./pages/Gallery";
-import Home from "./pages/Home";
-import Products from "./pages/Products";
+import Home from "./pages/homePage/Home";
+import Products from "./pages/productsPage/Products";
 
 import "./App.css";
 
