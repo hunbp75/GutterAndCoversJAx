@@ -1,0 +1,33 @@
+.contactus-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  gap: 1rem;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#call {
+  font-size: 25px;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.material-icons {
+  margin-top: 7px;
+}
+
+.mailTo {
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration: underline;
+}
