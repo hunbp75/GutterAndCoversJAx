@@ -193,6 +193,19 @@
   margin-top: 2rem;
 }
 
+.products-link-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.products-link-button {
+  width: 160px;
+  height: 30px;
+  border-radius: 20px;
+}
+
 @media only screen and (max-width: 500px) {
   .color-container {
     display: grid;

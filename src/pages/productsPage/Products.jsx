@@ -1,6 +1,14 @@
 import "./products.css";
 
 const Products = () => {
+  const handleSubmitLeafRelief = () => {
+    window.location.href = "http://www.leaf-relief.com";
+  };
+
+  const handleSubmitGutterTopper = () => {
+    window.location.href = "http://www.guttertopper.com";
+  };
+
   return (
     <div className="gutter-container">
       <div className="header-text-container">
@@ -113,8 +121,19 @@ const Products = () => {
         These colors are for reference only! At the time of the estimate our
         sales representative will show you the actual color sample, from which
         you can make your selection! We also offer genuine copper Guttertopper!
-        Visit www.guttertopper.com for more information!
       </p>
+      <div className="products-link-container">
+        <p className="products-link">
+          You can visit GutterTopper site for more information!
+        </p>
+        <button
+          type="submit"
+          onClick={handleSubmitGutterTopper}
+          className="products-link-button"
+        >
+          Click to Gutter Topper
+        </button>
+      </div>
       <p className="text-header" id="leafRelief">
         Leaf Relief
       </p>
@@ -124,9 +143,20 @@ const Products = () => {
         patented Aluma-Perf Technology keeps debris out of gutters, allowing
         water to flow freely. Debris is then lifted off of gutters by a gentle
         breeze. Gutter Protection for the fraction of the price of other
-        systems! 10 years Manufacturers Warranty! Visit www.leaf-relief.com for
-        more information!
+        systems! 10 years Manufacturers Warranty!
       </p>
+      <div className="products-link-container">
+        <p className="products-link">
+          You can visit Leaf-Relief site for more information!
+        </p>
+        <button
+          type="submit"
+          onClick={handleSubmitLeafRelief}
+          className="products-link-button"
+        >
+          Click to Leaf-Relief site
+        </button>
+      </div>
     </div>
   );
 };
