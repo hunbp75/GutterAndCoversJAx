@@ -7,15 +7,15 @@ const ContactUs = () => {
       <h2>9253 Arbolita way</h2>
       <h2>Jacksonville, Florida, 32256</h2>
       <div className="phone">
-        <span class="material-icons" id="call">
+        <span className="material-icons" id="call">
           call
         </span>
         <h2>(904) 997-6685</h2>
       </div>
 
       <div className="email">
-        <span class="material-icons">email</span>
-        <a class="mailTo" href="mailto:contact@test.com">
+        <span className="material-icons">email</span>
+        <a className="mailTo" href="mailto:contact@test.com">
           gandcjax@gmail.com
         </a>
       </div>
