@@ -1,18 +1,13 @@
 import { Link } from "react-router-dom";
 import "./navBar.css";
-import YouAreHere from "./YouAreHere";
 
 const NavBar = () => {
-  const handleClick = () => {
-    return <h1>jodjeop</h1>;
-  };
-
   return (
     <nav className="navBar">
       <Link to="/" id="navbutton">
         Home
       </Link>
-      <Link to="/Products" id="navbutton" onClick={handleClick}>
+      <Link to="/Products" id="navbutton">
         Products
       </Link>
       <Link to="/Gallery" id="navbutton">
