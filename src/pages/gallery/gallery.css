@@ -38,7 +38,8 @@
   display: flex;
   border: 1px solid black;
   border-radius: 10px;
-  max-height: 300px;
+  width: 220px;
+  height: 160px;
 }
 .back-to-top {
   position: fixed;

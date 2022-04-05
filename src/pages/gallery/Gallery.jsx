@@ -48,7 +48,6 @@ const Gallery = () => {
               <img
                 className="image"
                 src={item.url}
-                width={220}
                 alt="pics"
                 onClick={() => openModal(item)}
               />
@@ -60,6 +59,7 @@ const Gallery = () => {
               >
                 <div className="modal-container">
                   <div className="modal-pictures">
+                    <p>X</p>
                     <img
                       id="modal-img"
                       src={selectedPicture}
@@ -82,7 +82,6 @@ const Gallery = () => {
               <img
                 className="image"
                 src={item.url}
-                width={220}
                 alt="pics"
                 onClick={() => openModal(item)}
               />
@@ -118,7 +117,6 @@ const Gallery = () => {
               <img
                 className="image"
                 src={item.url}
-                width={220}
                 alt="pics"
                 onClick={() => openModal(item)}
               />
@@ -154,7 +152,6 @@ const Gallery = () => {
               <img
                 className="image"
                 src={item.url}
-                width={220}
                 alt="pics"
                 onClick={() => openModal(item)}
               />
