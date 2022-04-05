@@ -12,6 +12,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
+  padding-top: 1rem;
 }
 
 #navbutton {
@@ -33,5 +34,16 @@ body {
   .navBar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .logo {
+    max-width: 300px;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactus-container {
+    text-align: center;
   }
 }
