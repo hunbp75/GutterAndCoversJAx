@@ -3,7 +3,7 @@ import Main from "./components/Main";
 import NavBar from "./components/NavBar";
 import ContactUs from "./pages/contactUs/ContactUs";
 import Faqs from "./pages/faqs/Faqs";
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/gallery/Gallery";
 import Home from "./pages/homePage/Home";
 import Products from "./pages/productsPage/Products";
 
