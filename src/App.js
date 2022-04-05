@@ -20,10 +20,10 @@ const Layout = () => (
         />
       </div>
       <div className="header-container">
-        <h3>Gutters And Covers LLC. -</h3>
-        <h3>- Jacksonville, Florida --</h3>
+        <h3>Gutters And Covers LLC.</h3>
+        <h3>Jacksonville, Florida</h3>
         <div className="phone-logo">
-          <span className="material-icons" id="call-logo">
+          <span className="material-icons" id="call">
             call
           </span>
           <h3>(904) 997-6685</h3>

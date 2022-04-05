@@ -30,7 +30,7 @@ body {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .navBar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -39,11 +39,23 @@ body {
     max-width: 300px;
   }
 
+  .contactus-container {
+    text-align: center;
+  }
+
   .header-container {
     display: flex;
     flex-direction: column;
   }
-  .contactus-container {
-    text-align: center;
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 601px) {
+  .logo-container {
+    display: flex;
+    flex-direction: column;
   }
 }
