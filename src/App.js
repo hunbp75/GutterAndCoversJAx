@@ -11,10 +11,24 @@ import "./App.css";
 
 const Layout = () => (
   <div className="main-container">
-    <div className="header-container">
-      <h1>Gutters And Covers LLC.</h1>
-      <h3>Jacksonville, Florida</h3>
-      <h4>(904) 997-6685</h4>
+    <div className="logo-container">
+      <div className="logo-box">
+        <img
+          src="http://www.guttersandcoversjax.com/Gutters&CoversLLC002.jpg"
+          alt="logo"
+          className="logo"
+        />
+      </div>
+      <div className="header-container">
+        <h3>Gutters And Covers LLC. -</h3>
+        <h3>- Jacksonville, Florida --</h3>
+        <div className="phone-logo">
+          <span className="material-icons" id="call-logo">
+            call
+          </span>
+          <h3>(904) 997-6685</h3>
+        </div>
+      </div>
     </div>
     <NavBar />
     <Main>

@@ -1,13 +1,25 @@
 .header-container {
   display: flex;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
 }
-/*
-html {
-  background-image: url("./images/pexels-photo-696644.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.logo {
+  width: 400px;
 }
-*/
+
+.phone-logo {
+  display: flex;
+  margin-left: 10px;
+}
+
+#call-logo {
+  font-size: 25px;
+  position: relative;
+  top: -5px;
+}
