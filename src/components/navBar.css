@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: black;
-  color: white;
+  color: whitesmoke;
   opacity: 0.8;
   height: 50px;
   font-size: 1.2rem;
@@ -28,6 +28,15 @@ body {
   font-style: oblique;
   border-radius: 20px;
   text-decoration: none;
+}
+
+#navbutton:hover {
+  color: black;
+  background-color: whitesmoke;
+  border: 3px solid black;
+}
+#navbutton:active {
+  background-color: brown;
 }
 
 @media only screen and (max-width: 700px) {
