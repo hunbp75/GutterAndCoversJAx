@@ -1,9 +1,9 @@
+import { useState } from "react";
+
 const Modal = (props) => {
-  const nextPicture = () => {
-    console.log(props.selectedPictureId);
-    props.setSelectedPictureId(props.selectedPictureId + 1);
-    console.log(props.selectedPictureId);
-  };
+  const [next, setNext] = useState("");
+
+  const nextPicture = () => {};
 
   const previousPicture = () => {};
 

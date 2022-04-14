@@ -1,8 +1,10 @@
+import UpbButton from "../../components/UpButton";
 import "./faqs.css";
 
 const Faqs = () => {
   return (
     <div>
+      <UpbButton />
       <p className="faqs-title">Why Does My House Need Gutters ?</p>
       <p className="faqs-text">
         To prevent stains or damage on your stone, brick or siding, and to
