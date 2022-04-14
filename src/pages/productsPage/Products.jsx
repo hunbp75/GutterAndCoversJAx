@@ -1,3 +1,4 @@
+import UpbButton from "../../components/UpButton";
 import "./products.css";
 
 const Products = () => {
@@ -11,6 +12,7 @@ const Products = () => {
 
   return (
     <div className="gutter-container">
+      <UpbButton />
       <div className="header-text-container">
         <p className="header-text">Gutters</p>
       </div>
