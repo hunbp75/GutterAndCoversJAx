@@ -1,12 +1,16 @@
+import guttersImages from "./guttersImages.json";
 import { useState } from "react";
 
 const Modal = (props) => {
-  const [next, setNext] = useState("");
+  const nextPicture = () => {
+    props.setSelectedPictureId(props.selectedPictureId + 1);
+    props.setSelectedPicture(guttersImages[props.selectedPictureId + 1].url);
+  };
 
-  const nextPicture = () => {};
-
-  const previousPicture = () => {};
-
+  const previousPicture = () => {
+    props.setSelectedPictureId(props.selectedPictureId - 1);
+    props.setSelectedPicture(guttersImages[props.selectedPictureId - 1].url);
+  };
   return (
     <div>
       <div
@@ -21,7 +25,7 @@ const Modal = (props) => {
               onClick={previousPicture}
             >
               previous
-            </button>{" "}
+            </button>
             <button type="button" className="nextbtn" onClick={nextPicture}>
               next
             </button>
