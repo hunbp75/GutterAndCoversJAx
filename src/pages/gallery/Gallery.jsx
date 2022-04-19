@@ -1,6 +1,6 @@
 import guttersImages from "./images/guttersImages.json";
 import "./gallery.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Modal from "./images/Modal";
 import UpbButton from "../../components/UpButton";
 
@@ -100,6 +100,8 @@ const Gallery = () => {
     </div>
   );
 
+  console.log("selectedPicture: ", selectedPicture);
+  console.log("selectedPictureId: ", selectedPictureId);
   return (
     <div className="kkl">
       <UpbButton />
