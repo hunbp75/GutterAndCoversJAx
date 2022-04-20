@@ -18,25 +18,7 @@ const Modal = (props) => {
         style={{ display: props.isOpen ? "flex" : "none" }}
       >
         <div className="modal-content">
-          <div className="modal-header">
-            <button
-              type="button"
-              className="previousbtn"
-              onClick={previousPicture}
-            >
-              previous
-            </button>
-            <button type="button" className="nextbtn" onClick={nextPicture}>
-              next
-            </button>
-            <button
-              type="button"
-              className="btnCloseX"
-              onClick={props.closeModal}
-            >
-              X
-            </button>
-          </div>
+          <div className="modal-header"></div>
           <div className="modal-body">
             <img
               id="modal-img"
@@ -44,6 +26,27 @@ const Modal = (props) => {
               alt="pics"
               onClick={props.closeModal}
             />
+          </div>
+          <div className="nextPrevBtn">
+            <span
+              className="material-icons"
+              onClick={previousPicture}
+              id="previousbtn"
+            >
+              arrow_back_ios
+            </span>
+            <span className="material-icons" onClick={nextPicture} id="nextbtn">
+              arrow_forward_ios
+            </span>
+          </div>
+          <div className="modalCloseBtn">
+            <span
+              className="material-icons"
+              onClick={props.closeModal}
+              id="btnCloseX"
+            >
+              close
+            </span>
           </div>
         </div>
       </div>
