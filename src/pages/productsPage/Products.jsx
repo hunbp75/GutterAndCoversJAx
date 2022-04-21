@@ -27,8 +27,8 @@ const Products = () => {
         aluminum with baked on enamel finish that comes with a twenty year
         warranty. We use a .060 hidden hangers at every 36 inches. We use the
         very best sealant available to ensure leak free endcaps and miters. Most
-        6" installation utilizes our 3"X4" downspout. Our standard downspout and
-        elbow is manufactured from prepainted .019 aluminum. We install the
+        6" installation utilizes our 3" x "4" downspout. Our standard downspout
+        and elbow is manufactured from prepainted .019 aluminum. We install the
         downspouts with two wrap around straps on one story and another strap at
         the joints on 2 and 3 story installations. Our installations carry a 15
         year labor and 20 year material manufacturer warranty.
