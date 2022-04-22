@@ -26,6 +26,8 @@
 .logo {
   width: 700px;
   height: 200px;
+  border-radius: 30px;
+  margin-bottom: 3rem;
 }
 
 .phone-logo {
