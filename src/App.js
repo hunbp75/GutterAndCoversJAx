@@ -14,7 +14,7 @@ const Layout = () => (
     <div className="logo-container">
       <div className="logo-box">
         <img
-          src="http://www.guttersandcoversjax.com/Gutters&CoversLLC002.jpg"
+          src="http://www.guttersandcoversjax.com/Gutters&CoversLLc_USA02.jpg"
           alt="logo"
           className="logo"
         />
