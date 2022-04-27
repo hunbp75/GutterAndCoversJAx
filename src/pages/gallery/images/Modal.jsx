@@ -1,5 +1,4 @@
 import guttersImages from "./guttersImages.json";
-import { useState } from "react";
 
 const Modal = (props) => {
   const nextPicture = () => {

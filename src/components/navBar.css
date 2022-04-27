@@ -40,13 +40,13 @@ body {
   background-color: brown;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .navBar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .logo {
-    max-width: 300px;
+    max-width: 260px;
   }
 
   .contactus-container {
@@ -63,9 +63,32 @@ body {
   }
 
   #modal-img {
-    width: 375px;
-    min-width: 300px;
-    height: auto;
+    max-width: 320px;
+    max-height: 240px;
+  }
+
+  .modalCloseBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 718%);
+  }
+
+  #btnCloseX {
+    max-width: 30px;
+  }
+
+  .nextPrevBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 330%);
+  }
+
+  #previousbtn,
+  #nextbtn {
+    max-height: 50px;
+    max-width: 30px;
   }
 }
 
@@ -73,5 +96,33 @@ body {
   .logo-container {
     display: flex;
     flex-direction: column;
+  }
+
+  #modal-img {
+    max-width: 600px;
+    max-height: 480px;
+  }
+  .modalCloseBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 245%);
+  }
+
+  #btnCloseX {
+    max-width: 50px;
+  }
+
+  .nextPrevBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+  }
+
+  #previousbtn,
+  #nextbtn {
+    max-height: 80px;
+    max-width: 50px;
   }
 }
