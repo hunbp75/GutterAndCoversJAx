@@ -22,8 +22,9 @@ const Gallery = () => {
 
   const guttersData = () => (
     <div className="mapImgContainer">
-      {guttersImages.map((item) => {
-        if (item.title === "gutter") {
+      {guttersImages
+        .filter((item) => item.title === "gutter")
+        .map((item, index) => {
           return (
             <img
               key={item.id}
@@ -35,15 +36,15 @@ const Gallery = () => {
               }}
             />
           );
-        }
-      })}
+        })}
     </div>
   );
 
   const protectionData = () => (
     <div className="mapImgContainer">
-      {guttersImages.map((item) => {
-        if (item.title === "protection") {
+      {guttersImages
+        .filter((item) => item.title === "protection")
+        .map((item, index) => {
           return (
             <img
               key={item.id}
@@ -55,15 +56,15 @@ const Gallery = () => {
               }}
             />
           );
-        }
-      })}
+        })}
     </div>
   );
 
   const soffitData = () => (
     <div className="mapImgContainer">
-      {guttersImages.map((item) => {
-        if (item.title === "soffit") {
+      {guttersImages
+        .filter((item) => item.title === "soffit")
+        .map((item, index) => {
           return (
             <img
               key={item.id}
@@ -75,15 +76,15 @@ const Gallery = () => {
               }}
             />
           );
-        }
-      })}
+        })}
     </div>
   );
 
   const aluData = () => (
     <div className="mapImgContainer">
-      {guttersImages.map((item, index) => {
-        if (item.title === "alu") {
+      {guttersImages
+        .filter((item) => item.title === "alu")
+        .map((item, index) => {
           return (
             <img
               key={index}
@@ -95,8 +96,7 @@ const Gallery = () => {
               }}
             />
           );
-        }
-      })}
+        })}
     </div>
   );
 
