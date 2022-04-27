@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 
 const UpbButton = () => {
   const [showButton, setShowButton] = useState(false);
+  const [on, setOn] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setOn(!on);
+    }, 1000);
+  }, [on]);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -23,7 +30,10 @@ const UpbButton = () => {
   return (
     <div className="back-button">
       {showButton && (
-        <button onClick={scrollToTop} className="back-to-top">
+        <button
+          onClick={scrollToTop}
+          className={on ? "back-to-top" : "red-back-button"}
+        >
           &#8679;
         </button>
       )}

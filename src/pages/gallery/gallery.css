@@ -23,6 +23,8 @@
   gap: 25px;
 }
 
+/* Up Button */
+
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -37,6 +39,18 @@
 .back-to-top:hover {
   background-color: rgb(70, 63, 63);
   color: whitesmoke;
+}
+
+.red-back-button {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  font-size: 80px;
+  color: rgb(70, 63, 63);
+  background-color: rgb(236, 141, 141);
+  border: 3px solid rgb(70, 63, 63);
+  cursor: pointer;
+  border-radius: 100px;
 }
 
 /* Modal.jsx */
