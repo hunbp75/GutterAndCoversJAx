@@ -159,6 +159,22 @@ const Products = () => {
           Click to Leaf-Relief site
         </button>
       </div>
+      <div className="soffit-container">
+        <div className="header-text-container">
+          <p className="header-text">Soffit & Fascia</p>
+        </div>
+
+        <p>
+          Soffit and Fascia are the final decorative touches that create a fine,
+          classic finish to your home or business whether you building a new
+          home or just remodeling. They cover all existing overhangs and roof
+          edges to smooth the overall appearance of your new sleek home. These
+          additions create lasting beauty and give extra value to your home
+          while eliminating the need to paint in some hard to reach areas! Just
+          like vinyl siding soffit material also comes in a large variety of
+          colors!
+        </p>
+      </div>
     </div>
   );
 };

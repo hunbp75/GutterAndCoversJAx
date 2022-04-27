@@ -206,6 +206,10 @@
   border-radius: 20px;
 }
 
+.soffit-container {
+  margin-bottom: 5rem;
+}
+
 @media only screen and (max-width: 500px) {
   .color-container {
     display: grid;
