@@ -41,12 +41,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/GutterAndCoversJAx/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Products" element={<Products />} />
-          <Route path="Gallery" element={<Gallery />} />
-          <Route path="ContactUs" element={<ContactUs />} />
-          <Route path="Faqs" element={<Faqs />} />
+          <Route path="/GutterAndCoversJAx/Products" element={<Products />} />
+          <Route path="/GutterAndCoversJAx/Gallery" element={<Gallery />} />
+          <Route path="/GutterAndCoversJAx/ContactUs" element={<ContactUs />} />
+          <Route path="/GutterAndCoversJAx/Faqs" element={<Faqs />} />
         </Route>
       </Routes>
     </BrowserRouter>
