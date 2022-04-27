@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/GutterAndCoversJAx/static/css/main.357629b8.css",
-    "main.js": "/GutterAndCoversJAx/static/js/main.a37d15ff.js",
+    "main.js": "/GutterAndCoversJAx/static/js/main.ce2701b3.js",
     "static/js/787.b1660b4e.chunk.js": "/GutterAndCoversJAx/static/js/787.b1660b4e.chunk.js",
     "static/media/Hippopx.jpg": "/GutterAndCoversJAx/static/media/Hippopx.db1990d721eabc6b82cc.jpg",
     "index.html": "/GutterAndCoversJAx/index.html",
     "main.357629b8.css.map": "/GutterAndCoversJAx/static/css/main.357629b8.css.map",
-    "main.a37d15ff.js.map": "/GutterAndCoversJAx/static/js/main.a37d15ff.js.map",
+    "main.ce2701b3.js.map": "/GutterAndCoversJAx/static/js/main.ce2701b3.js.map",
     "787.b1660b4e.chunk.js.map": "/GutterAndCoversJAx/static/js/787.b1660b4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.357629b8.css",
-    "static/js/main.a37d15ff.js"
+    "static/js/main.ce2701b3.js"
   ]
 }
