@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.6c0cb4ca.css",
-    "main.js": "/my-app/static/js/main.fa8df4fc.js",
-    "static/js/787.b1660b4e.chunk.js": "/my-app/static/js/787.b1660b4e.chunk.js",
-    "index.html": "/my-app/index.html",
-    "main.6c0cb4ca.css.map": "/my-app/static/css/main.6c0cb4ca.css.map",
-    "main.fa8df4fc.js.map": "/my-app/static/js/main.fa8df4fc.js.map",
-    "787.b1660b4e.chunk.js.map": "/my-app/static/js/787.b1660b4e.chunk.js.map"
+    "main.css": "/GutterAndCoversJAx/static/css/main.f8f52fdc.css",
+    "main.js": "/GutterAndCoversJAx/static/js/main.662132f1.js",
+    "static/js/787.b1660b4e.chunk.js": "/GutterAndCoversJAx/static/js/787.b1660b4e.chunk.js",
+    "static/media/Hippopx.jpg": "/GutterAndCoversJAx/static/media/Hippopx.db1990d721eabc6b82cc.jpg",
+    "index.html": "/GutterAndCoversJAx/index.html",
+    "main.f8f52fdc.css.map": "/GutterAndCoversJAx/static/css/main.f8f52fdc.css.map",
+    "main.662132f1.js.map": "/GutterAndCoversJAx/static/js/main.662132f1.js.map",
+    "787.b1660b4e.chunk.js.map": "/GutterAndCoversJAx/static/js/787.b1660b4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0cb4ca.css",
-    "static/js/main.fa8df4fc.js"
+    "static/css/main.f8f52fdc.css",
+    "static/js/main.662132f1.js"
   ]
 }
