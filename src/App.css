@@ -2,11 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px dashed black;
+  border: 1px dashed rgb(27, 26, 26);
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 20px;
   text-align: center;
+  font-style: oblique;
 }
 
 .logo-container {

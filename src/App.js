@@ -13,8 +13,8 @@ const Layout = () => (
   <div className="main-container">
     <div className="logo-container">
       <div className="header-container">
-        <h3> Jacksonville, Florida -&#160;</h3>
-        <h3>Gutters And Covers LLC. -&#160;&#160;</h3>
+        <h3> Jacksonville, Fl. &#160;</h3>
+        <h3>Gutters And Covers LLC. &#160;&#160;</h3>
         <div className="phone-logo">
           <span className="material-icons" id="calll">
             call
