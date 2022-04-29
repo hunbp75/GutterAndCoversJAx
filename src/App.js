@@ -12,22 +12,22 @@ import "./App.css";
 const Layout = () => (
   <div className="main-container">
     <div className="logo-container">
-      <div className="logo-box">
-        <img
-          src="http://www.guttersandcoversjax.com/Gutters&CoversLLc_USA02.jpg"
-          alt="logo"
-          className="logo"
-        />
-      </div>
       <div className="header-container">
-        <h3>Gutters And Covers LLC.</h3>
-        <h3>Jacksonville, Florida</h3>
+        <h3> Jacksonville, Florida -&#160;</h3>
+        <h3>Gutters And Covers LLC. -&#160;&#160;</h3>
         <div className="phone-logo">
           <span className="material-icons" id="calll">
             call
           </span>
           <h3>(904) 997-6685</h3>
         </div>
+      </div>
+      <div className="logo-box">
+        <img
+          src="http://www.guttersandcoversjax.com/Gutters&CoversLLc_USA02.jpg"
+          alt="logo"
+          className="logo"
+        />
       </div>
     </div>
     <NavBar />

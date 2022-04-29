@@ -1,27 +1,19 @@
-.logo-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .header-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 1px dashed black;
   padding: 10px;
   border-radius: 20px;
-  height: 5%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .logo-container {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 18%;
 }
 .logo {
   width: 700px;
