@@ -43,7 +43,8 @@ body {
 @media only screen and (max-width: 600px) {
   .navBar {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
   .logo {
     max-width: 260px;
@@ -97,6 +98,9 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .logo {
+    max-width: 550px;
+  }
 
   #modal-img {
     max-width: 600px;
@@ -124,5 +128,11 @@ body {
   #nextbtn {
     max-height: 80px;
     max-width: 50px;
+  }
+
+  .navBar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 }
