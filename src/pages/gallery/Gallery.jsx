@@ -100,6 +100,26 @@ const Gallery = () => {
     </div>
   );
 
+  const commercial = () => (
+    <div className="mapImgContainer">
+      {guttersImages
+        .filter((item) => item.title === "Commercial")
+        .map((item, index) => {
+          return (
+            <img
+              key={index}
+              className="image"
+              src={item.url}
+              alt="pics"
+              onClick={() => {
+                openModal(item);
+              }}
+            />
+          );
+        })}
+    </div>
+  );
+
   console.log("selectedPicture: ", selectedPicture);
   console.log("selectedPictureId: ", selectedPictureId);
   return (
@@ -113,6 +133,8 @@ const Gallery = () => {
       {soffitData()}
       <h1 className="gallery-title">Aluminum Roof</h1>
       {aluData()}
+      <h1 className="gallery-title">Commercial</h1>
+      {commercial()}
       <Modal
         selectedPicture={selectedPicture}
         selectedPictureId={selectedPictureId}
