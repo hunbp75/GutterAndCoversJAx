@@ -4,19 +4,19 @@ import "./navBar.css";
 const NavBar = () => {
   return (
     <nav className="navBar">
-      <Link to="/GutterAndCoversJAx/" id="navbutton">
+      <Link to="/" id="navbutton">
         Home
       </Link>
-      <Link to="/GutterAndCoversJAx/Products" id="navbutton">
+      <Link to="/Products" id="navbutton">
         Products
       </Link>
-      <Link to="/GutterAndCoversJAx/Gallery" id="navbutton">
+      <Link to="/Gallery" id="navbutton">
         Gallery
       </Link>
-      <Link to="/GutterAndCoversJAx/ContactUs" id="navbutton">
+      <Link to="/ContactUs" id="navbutton">
         Contact Us
       </Link>
-      <Link to="/GutterAndCoversJAx/Faqs" id="navbutton">
+      <Link to="/Faqs" id="navbutton">
         Faq's
       </Link>
     </nav>
