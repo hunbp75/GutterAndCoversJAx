@@ -2,13 +2,19 @@ import guttersImages from "./guttersImages.json";
 
 const Modal = (props) => {
   const nextPicture = () => {
-    props.setSelectedPictureId(props.selectedPictureId + 1);
-    props.setSelectedPicture(guttersImages[props.selectedPictureId + 1].url);
+    if (props.selectedPictureId < guttersImages.length - 1) {
+      props.setSelectedPictureId(props.selectedPictureId + 1);
+      props.setSelectedPicture(guttersImages[props.selectedPictureId + 1].url);
+    }
+    return;
   };
 
   const previousPicture = () => {
-    props.setSelectedPictureId(props.selectedPictureId - 1);
-    props.setSelectedPicture(guttersImages[props.selectedPictureId - 1].url);
+    if (props.selectedPictureId > guttersImages[0].id) {
+      props.setSelectedPictureId(props.selectedPictureId - 1);
+      props.setSelectedPicture(guttersImages[props.selectedPictureId - 1].url);
+    }
+    return;
   };
   return (
     <div>
