@@ -85,6 +85,10 @@
   color: whitesmoke;
 }
 
+#btnCloseX:active {
+  background-color: brown;
+}
+
 .modalCloseBtn {
   display: flex;
   justify-content: end;
@@ -126,6 +130,11 @@
   background-color: rgb(70, 63, 63);
   border: 1px solid whitesmoke;
   color: whitesmoke;
+}
+
+#previousbtn:active,
+#nextbtn:active {
+  background-color: brown;
 }
 
 #modal-img {
