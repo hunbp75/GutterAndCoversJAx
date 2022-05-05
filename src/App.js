@@ -23,11 +23,7 @@ const Layout = () => (
         </div>
       </div>
       <div className="logo-box">
-        <img
-          src="http://www.guttersandcoversjax.com/Gutters&CoversLLc_USA02.jpg"
-          alt="logo"
-          className="logo"
-        />
+        <img src="/Gutters&CoversLLc_USA02.jpg" alt="logo" className="logo" />
       </div>
     </div>
     <NavBar />
