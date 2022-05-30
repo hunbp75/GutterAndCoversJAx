@@ -43,9 +43,16 @@ body {
 @media only screen and (max-width: 600px) {
   .navBar {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    justify-content: center;
   }
+
+  #navbutton {
+    height: 30px;
+    width: 105px;
+  }
+
   .logo {
     max-width: 260px;
   }
@@ -93,7 +100,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 601px) {
+@media only screen and (max-width: 700px) and (min-width: 601px) {
   .logo-container {
     display: flex;
     flex-direction: column;
@@ -103,14 +110,15 @@ body {
   }
 
   #modal-img {
+    margin-top: 1rem;
     max-width: 630px;
-    max-height: 340px;
+    max-height: 350px;
   }
   .modalCloseBtn {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 545%);
+    transform: translate(-50%, 530%);
   }
 
   #btnCloseX {
@@ -132,7 +140,71 @@ body {
 
   .navBar {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+  }
+
+  #navbutton {
+    height: 35px;
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 701px) {
+  #modal-img {
+    margin-top: 3rem;
+    max-width: 630px;
+    max-height: 350px;
+  }
+  .modalCloseBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 440%);
+  }
+
+  #btnCloseX {
+    max-width: 40px;
+  }
+
+  .nextPrevBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110%);
+  }
+  #previousbtn,
+  #nextbtn {
+    max-width: 40px;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 901px) {
+  #modal-img {
+    margin-top: 3rem;
+    max-width: 630px;
+    max-height: 350px;
+  }
+  .modalCloseBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 440%);
+  }
+
+  #btnCloseX {
+    max-width: 40px;
+  }
+
+  .nextPrevBtn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110%);
+  }
+  #previousbtn,
+  #nextbtn {
+    max-width: 40px;
   }
 }
