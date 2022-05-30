@@ -103,14 +103,14 @@ body {
   }
 
   #modal-img {
-    max-width: 600px;
-    max-height: 480px;
+    max-width: 630px;
+    max-height: 340px;
   }
   .modalCloseBtn {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 245%);
+    transform: translate(-50%, 545%);
   }
 
   #btnCloseX {
@@ -121,13 +121,13 @@ body {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 250%);
   }
 
   #previousbtn,
   #nextbtn {
-    max-height: 80px;
-    max-width: 50px;
+    max-height: 50px;
+    max-width: 30px;
   }
 
   .navBar {
