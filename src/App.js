@@ -8,6 +8,7 @@ import Home from "./pages/homePage/Home";
 import Products from "./pages/productsPage/Products";
 
 import "./App.css";
+import Weather from "./components/Weather";
 
 const Layout = () => (
   <div className="main-container">
@@ -25,6 +26,7 @@ const Layout = () => (
       <div className="logo-box">
         <img src="/Gutters&CoversLLc_USA02.jpg" alt="logo" className="logo" />
       </div>
+      <Weather />
     </div>
     <NavBar />
     <Main>
