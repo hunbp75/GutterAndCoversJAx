@@ -11,22 +11,23 @@ import "./App.css";
 import Weather from "./components/Weather";
 
 const Layout = () => (
-  <div className="main-container">
-    <div className="logo-container">
-      <div className="header-container">
-        <h3> Jacksonville, Fl. &#160;</h3>
-        <h3>Gutters And Covers LLC. &#160;&#160;</h3>
-        <div className="phone-logo">
-          <span className="material-icons" id="calll">
-            call
-          </span>
-          <h3>(904) 997-6685</h3>
+  <div className="kkl">
+    <div className="main-container">
+      <div className="logo-container">
+        <div className="header-container">
+          <h3> Jacksonville, Fl. &#160;</h3>
+          <h3>Gutters And Covers LLC. &#160;&#160;</h3>
+          <div className="phone-logo">
+            <span className="material-icons" id="calll">
+              call
+            </span>
+            <h3>(904) 997-6685</h3>
+          </div>
+        </div>
+        <div className="logo-box">
+          <img src="/Gutters&CoversLLc_USA02.jpg" alt="logo" className="logo" />
         </div>
       </div>
-      <div className="logo-box">
-        <img src="/Gutters&CoversLLc_USA02.jpg" alt="logo" className="logo" />
-      </div>
-      <Weather />
     </div>
     <NavBar />
     <Main>

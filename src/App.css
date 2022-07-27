@@ -39,34 +39,3 @@
   top: -5px;
   margin-right: 10px;
 }
-
-.city-text {
-  margin-top: 5%;
-  text-align: center;
-  padding: 15px;
-  border: 1px ridge whitesmoke;
-  border-radius: 10px;
-}
-
-.weather-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.weather-text-container {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-}
-
-.weather-icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: row;
-}

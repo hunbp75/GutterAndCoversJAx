@@ -31,7 +31,7 @@ const Weather = () => {
 
   return (
     <div className="city-text">
-      <h3>{city} area</h3>
+      <h4>{city} area</h4>
       <div className="weather-container">
         <div className="weather-text-container">
           <p>Temp: {temp} ℉ </p>
@@ -39,9 +39,10 @@ const Weather = () => {
           <p>Cloud: {cloud} %</p>
           <p>Humidity: {humidity} %</p>
         </div>
+
         <div className="weather-icon-container">
+          <img src={weatherIcon} alt="" className="weather-icon" />
           <p>{weatherText}</p>
-          <img src={weatherIcon} alt="" id="weather-icon" />
         </div>
       </div>
     </div>
