@@ -6,7 +6,8 @@
 
 body {
   margin: 2rem;
-  background-image: url("./Hippopx.jpg");
+  /* background-image: url("./Hippopx.jpg"); */
+  background-image: linear-gradient(90deg, #d0e1e7, #d6b37bf1);
 }
 
 .navBar {
