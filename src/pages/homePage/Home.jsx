@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import Weather from "../../components/Weather";
 import "./home.css";
 
