@@ -39,6 +39,7 @@
 }
 
 .weather-icon-container {
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,4 +48,8 @@
 
 .weather-icon {
   max-width: 100px;
+}
+#cityname {
+  margin-bottom: 5px;
+  font-style: oblique;
 }

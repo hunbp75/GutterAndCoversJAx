@@ -8,6 +8,7 @@ const Weather = () => {
   const [wind, setWind] = useState();
   const [cloud, setCloud] = useState();
   const [humidity, setHumidity] = useState();
+  const [pressure, setPressure] = useState();
 
   const fetchWeatherData = (url) => {
     fetch(url)
@@ -20,6 +21,7 @@ const Weather = () => {
         setWind(data.current.wind_mph);
         setCloud(data.current.cloud);
         setHumidity(data.current.humidity);
+        setPressure(data.current.pressure_in);
       });
   };
 
@@ -31,18 +33,19 @@ const Weather = () => {
 
   return (
     <div className="city-text">
-      <h4>{city} area</h4>
+      <h4 id="cityname">{city} Area</h4>
       <div className="weather-container">
         <div className="weather-text-container">
           <p>Temp: {temp} ℉ </p>
           <p>Wind: {wind} mph</p>
           <p>Cloud: {cloud} %</p>
           <p>Humidity: {humidity} %</p>
+          <p>Pressure: {pressure} in</p>
         </div>
 
         <div className="weather-icon-container">
-          <img src={weatherIcon} alt="" className="weather-icon" />
           <p>{weatherText}</p>
+          <img src={weatherIcon} alt="" className="weather-icon" />
         </div>
       </div>
     </div>
