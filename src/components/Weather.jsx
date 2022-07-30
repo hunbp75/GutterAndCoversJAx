@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 const Weather = () => {
-  const [city, setCity] = useState("");
   const [weatherText, setWeatherTet] = useState("");
   const [weatherIcon, setWeatherIcon] = useState();
   const [temp, setTemp] = useState();
@@ -14,7 +13,6 @@ const Weather = () => {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        setCity(data.location.name);
         setWeatherTet(data.current.condition.text);
         setWeatherIcon(data.current.condition.icon);
         setTemp(data.current.temp_f);
@@ -26,14 +24,15 @@ const Weather = () => {
   };
 
   useEffect(() => {
+    // HTTPS requiest
     fetchWeatherData(
-      "http://api.weatherapi.com/v1/current.json?key=43fa591463bd4c9aa75152802222607&q=Jacksonville&aqi=no"
+      "https://api.weatherapi.com/v1/current.json?key=43fa591463bd4c9aa75152802222607&q=Jacksonville&aqi=no"
     );
   }, []);
 
   return (
     <div className="city-text">
-      <h4 id="cityname">{city} Area</h4>
+      <h4 id="cityname">Jacksonville Area</h4>
       <div className="weather-container">
         <div className="weather-text-container">
           <p>Temp: {temp} ℉ </p>

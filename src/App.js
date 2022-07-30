@@ -8,7 +8,6 @@ import Home from "./pages/homePage/Home";
 import Products from "./pages/productsPage/Products";
 
 import "./App.css";
-import Weather from "./components/Weather";
 
 const Layout = () => (
   <div className="kkl">
